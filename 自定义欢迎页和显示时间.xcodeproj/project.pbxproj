@@ -11,10 +11,13 @@
 		68F652081C2A9B020044BBC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F652071C2A9B020044BBC3 /* AppDelegate.m */; };
 		68F6520B1C2A9B020044BBC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F6520A1C2A9B020044BBC3 /* ViewController.m */; };
 		68F6520E1C2A9B020044BBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F6520C1C2A9B020044BBC3 /* Main.storyboard */; };
-		68F652101C2A9B020044BBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F6520F1C2A9B020044BBC3 /* Assets.xcassets */; };
 		68F652131C2A9B020044BBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F652111C2A9B020044BBC3 /* LaunchScreen.storyboard */; };
 		68F6521E1C2A9B020044BBC3 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F6521D1C2A9B020044BBC3 /* ___________Tests.m */; };
 		68F652291C2A9B020044BBC3 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F652281C2A9B020044BBC3 /* ___________UITests.m */; };
+		68F652381C2A9C160044BBC3 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F652371C2A9C160044BBC3 /* ViewController1.m */; };
+		68F652431C2AA7870044BBC3 /* Default@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F652411C2AA7870044BBC3 /* Default@2x-1.png */; };
+		68F652481C2AA8580044BBC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F652471C2AA8580044BBC3 /* Default-568h@2x.png */; };
+		68F6524A1C2AA9E90044BBC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F652491C2AA9E90044BBC3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,6 @@
 		68F652091C2A9B020044BBC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		68F6520A1C2A9B020044BBC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		68F6520D1C2A9B020044BBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68F6520F1C2A9B020044BBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F652121C2A9B020044BBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68F652141C2A9B020044BBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F652191C2A9B020044BBC3 /* 自定义欢迎页和显示时间Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义欢迎页和显示时间Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,11 @@
 		68F652241C2A9B020044BBC3 /* 自定义欢迎页和显示时间UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义欢迎页和显示时间UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F652281C2A9B020044BBC3 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
 		68F6522A1C2A9B020044BBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F652361C2A9C160044BBC3 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		68F652371C2A9C160044BBC3 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		68F652411C2AA7870044BBC3 /* Default@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x-1.png"; sourceTree = "<group>"; };
+		68F652471C2AA8580044BBC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		68F652491C2AA9E90044BBC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +112,14 @@
 				68F652071C2A9B020044BBC3 /* AppDelegate.m */,
 				68F652091C2A9B020044BBC3 /* ViewController.h */,
 				68F6520A1C2A9B020044BBC3 /* ViewController.m */,
+				68F652361C2A9C160044BBC3 /* ViewController1.h */,
+				68F652371C2A9C160044BBC3 /* ViewController1.m */,
+				68F652411C2AA7870044BBC3 /* Default@2x-1.png */,
+				68F652471C2AA8580044BBC3 /* Default-568h@2x.png */,
 				68F6520C1C2A9B020044BBC3 /* Main.storyboard */,
-				68F6520F1C2A9B020044BBC3 /* Assets.xcassets */,
 				68F652111C2A9B020044BBC3 /* LaunchScreen.storyboard */,
 				68F652141C2A9B020044BBC3 /* Info.plist */,
+				68F652491C2AA9E90044BBC3 /* Images.xcassets */,
 				68F652031C2A9B020044BBC3 /* Supporting Files */,
 			);
 			path = "自定义欢迎页和显示时间";
@@ -207,6 +218,7 @@
 				TargetAttributes = {
 					68F651FF1C2A9B020044BBC3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K5M484955T;
 					};
 					68F652181C2A9B020044BBC3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F652481C2AA8580044BBC3 /* Default-568h@2x.png in Resources */,
+				68F6524A1C2AA9E90044BBC3 /* Images.xcassets in Resources */,
 				68F652131C2A9B020044BBC3 /* LaunchScreen.storyboard in Resources */,
-				68F652101C2A9B020044BBC3 /* Assets.xcassets in Resources */,
+				68F652431C2AA7870044BBC3 /* Default@2x-1.png in Resources */,
 				68F6520E1C2A9B020044BBC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F652381C2A9C160044BBC3 /* ViewController1.m in Sources */,
 				68F6520B1C2A9B020044BBC3 /* ViewController.m in Sources */,
 				68F652081C2A9B020044BBC3 /* AppDelegate.m in Sources */,
 				68F652051C2A9B020044BBC3 /* main.m in Sources */,
@@ -413,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "自定义欢迎页和显示时间/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "自定义欢迎页和显示时间/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +519,7 @@
 				68F6522F1C2A9B020044BBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F652301C2A9B020044BBC3 /* Build configuration list for PBXNativeTarget "自定义欢迎页和显示时间Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +528,7 @@
 				68F652321C2A9B020044BBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F652331C2A9B020044BBC3 /* Build configuration list for PBXNativeTarget "自定义欢迎页和显示时间UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +537,7 @@
 				68F652351C2A9B020044BBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
